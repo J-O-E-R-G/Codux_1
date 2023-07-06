@@ -1,4 +1,4 @@
-module github.com/epocahontas/10day
+module github.com/epocahontas/10dayapp
 
 go 1.20
 
