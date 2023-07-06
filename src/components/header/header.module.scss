@@ -1,0 +1,39 @@
+.root {
+  width: 100vw;
+  background-color: rgba(245, 245, 247, 0.5);
+}
+.header {
+  display: flex;
+  justify-items: start;
+  grid-auto-flow: column;
+  width: 100vw;
+  height: 5vh;
+  align-self: center;
+  position: static;
+  font-size: 20px;
+  padding: 0vw 20vw 0vw 0vw;
+  gap: 10%;
+  flex-direction: row;
+  align-items: end;
+  background-color: rgba(245, 245, 247, 0.5);
+}
+.header_a {
+  display: block;
+  padding: 1% 1% 1% 10%;
+}
+.header_content {
+  display: grid;
+  border: 0px solid black;
+  padding: 0vw;
+  justify-content: start;
+  grid-auto-flow: column;
+  margin: 0vw 20vw 0vw 5vw;
+  gap: 10%;
+  width: 75vw;
+  height: 5vh;
+  align-items: center;
+  background-color: rgba(245, 245, 247, 0.5);
+}
+.header_logo {
+  margin: 0vw 25vw 0vw 0vw;
+}
