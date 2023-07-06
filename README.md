@@ -1,3 +1,8 @@
+### Testing out Codux to see if I can build an entire app in a 10 day period.
+Currently using the Vite Blank Template. \
+This is my first time using Codux and it is still in beta. \
+SCSS and divs sometimes appear to be repitive but the tsx files are cleanly written.
+
 <div align="center">  
     <img height="50" src="./src/assets/codux.svg">  
     <h1><img height="30" src="./src/assets/vite.svg"> Vite template for Codux</h1>
