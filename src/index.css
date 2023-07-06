@@ -41,6 +41,22 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  align-self: center;
+  position: fixed;
+  top: 50%;
+  bottom: 50%;
+  font-weight: 500;
+  color: #e6e0e0;
+  border: 2px solid #e6e6e6;
+  height: 1.6em;
+  width: 4.8em;
+  display: grid;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+  border-radius: 5px;
 }
 
 button {
