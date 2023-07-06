@@ -9,7 +9,7 @@ When http://localhost:8080/games/history or http://localhost:8080/games/biology 
 Problem is somehwere in  \
 router -> src/main.tsx \
 home page -> src/App.tsx \
-game page -> src/Games.tsx \
+game page -> src/Games.tsx 
 
 When going to 404 pages  
 [GIN] 2023/07/06 - 00:46:17 | 404 |            0s |             ::1 | GET      "/games/undefined" \
