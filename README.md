@@ -4,7 +4,7 @@ This is my first time using Codux and it is still in beta. \
 SCSS and divs sometimes appear to be repitive but the tsx files are cleanly written.
 
 ### Stuff to fix 
-needs_fixing.md
+[needs_fixing.md]
 <div align="center">  
     <img height="50" src="./src/assets/codux.svg">  
     <h1><img height="30" src="./src/assets/vite.svg"> Vite template for Codux</h1>
