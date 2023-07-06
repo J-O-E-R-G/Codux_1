@@ -10,8 +10,7 @@ Problem is somehwere in  \
 router -> src/main.tsx \
 home page -> src/App.tsx \
 game page -> src/Games.tsx \
-
-When going to 404 pages \ 
+When going to 404 pages  \ 
 [GIN] 2023/07/06 - 00:46:17 | 404 |            0s |             ::1 | GET      "/games/undefined" \
 [GIN] 2023/07/06 - 00:46:17 | 404 |            0s |             ::1 | GET      "/games/undefined" \
 [GIN] 2023/07/06 - 00:46:18 | 404 |            0s |             ::1 | GET      "/games/undefined" \
