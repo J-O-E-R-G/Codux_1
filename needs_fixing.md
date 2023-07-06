@@ -14,6 +14,8 @@ game page -> src/Games.tsx \
 ### P2 
 Text on home page bounces quickly after hover, idk im done w this 
 
+### P3
+Refactor before suicide is only option
 ## Server
 
 ## Front End
