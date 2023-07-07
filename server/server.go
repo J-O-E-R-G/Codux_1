@@ -17,7 +17,7 @@ func main() {
 		AllowCredentials: true,
 	}))
 
-	r.GET("/games/:category", get_route)
+	r.GET("/games/:category", routers.get_route())
 
 	r.Run() // listen and serve on 0.0.0.0:8080
 }
