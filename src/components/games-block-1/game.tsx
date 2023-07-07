@@ -3,22 +3,21 @@ import { useParams } from 'react-router-dom';
 import classNames from 'classnames';
 import axios from 'axios';
 import styles from './game.module.scss';
-import logo from './logo500.png';
+import logo from '../../assets/logo500.png';
 
 export interface Games_Block_1Props {
     className?: string;
 }
 
 export const Games = ({ className }: Games_Block_1Props) => {
-    const [text, setText] = useState(''); // State to store the text from the server
-    const [gameName, setGameName] = useState(''); // State to store the text from the server
-    const [gameAbout, setGameAbout] = useState(''); // State to store the text from the server
-    const { category } = useParams(); // Grab the category from the URL
-    const [isAboutVisible, setIsAboutVisible] = useState(false); // State to control visibility of about text
+    const [text, setText] = useState(''); 
+    const [gameName, setGameName] = useState(''); 
+    const [gameAbout, setGameAbout] = useState(''); 
+    const { category } = useParams(); 
+    const [isAboutVisible, setIsAboutVisible] = useState(false); 
 
-    // This effect runs when the component mounts and whenever the category changes
     useEffect(() => {
-        console.log('Fetching data'); // log a statement here
+        console.log('Fetching data'); 
         axios
             .get(`http://localhost:8080/games/${category}`)
             .then((response) => {
@@ -52,7 +51,6 @@ export const Games = ({ className }: Games_Block_1Props) => {
                     <br />
                 </p>
             )}{' '}
-            {/* Display the text from the server */}
             <div className={styles.game_page}>
             </div>
             <img className={styles['App-logo']} src={logo} alt="Logo" />

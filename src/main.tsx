@@ -1,11 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import App from './App'; // This is your HomePage
+import App from './Pages/App';
+import ErrorPage from './Pages/404';
 import './index.css';
-//<Route path="/games/:category" element={<GamesPage />} />
-// Import your other pages (components)
-import GamesPage from './Games';
+import GamesPage from './Pages/Games';
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 root.render(
@@ -14,8 +13,8 @@ root.render(
             <Routes>
                 <Route path="/games/:category" element={<GamesPage />} />
                 <Route path="/" element={<App />} />
+                <Route path="*" element={<ErrorPage />} />
             </Routes>
         </Router>
     </React.StrictMode>
 );
-

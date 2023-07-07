@@ -1,6 +1,6 @@
 import styles from './App.module.scss';
-import { Header } from './components/header/header';
-import { Games as GamesComponent }  from './components/games-block-1/game';
+import { Header } from '../components/header/header';
+import { Games as GamesComponent }  from '../components/games-block-1/game';
 
 function Games() {
 

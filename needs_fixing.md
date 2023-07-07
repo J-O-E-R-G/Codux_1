@@ -23,7 +23,7 @@ When going to 404 pages
 ### P2 
 Text on home page bounces quickly after hover, idk im done w this 
 
-### P3
+### P3 XXXX DONE 
 Refactor before suicide is only option
 ## Server
 

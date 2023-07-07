@@ -1,7 +1,7 @@
 import classNames from 'classnames';
 import styles from './home-block-1.module.scss';
-import biology from './bio.png';
-import history from './his.png';
+import biology from '../../assets/bio.png';
+import history from '../../assets/his.png';
 
 export interface Home_Block1Props {
     className?: string;
