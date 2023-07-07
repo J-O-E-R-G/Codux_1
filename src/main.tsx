@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import App from './App'; // This is your HomePage
 import './index.css';
-
+//<Route path="/games/:category" element={<GamesPage />} />
 // Import your other pages (components)
 import GamesPage from './Games';
 

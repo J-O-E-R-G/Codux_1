@@ -1,49 +1,75 @@
 .container {
-    display: flex;
-    width: 100vw;
-    height: 100vh;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
 }
-.image, .textBox {
-    position: relative;
-    cursor: pointer;
-    width: calc(100vw / 2);
-    height: 100%;
-    overflow: hidden;
-    transition: transform 0.3s ease-in-out;
-    border-radius: 15px;
+.image,
+.textBox {
+  position: relative;
+  cursor: pointer;
+  width: calc(100vw / 2);
+  height: 100%;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 15px;
 }
 
 .textBox {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.imageTextBox{
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
-    text-align: center;
-    top: 10vh;
-    font-family: 'Roboto', 'Open Sans', 'Arial', sans-serif;
+.imageTextBox {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  text-align: center;
+  top: 10vh;
+  font-family: 'Roboto', 'Open Sans', 'Arial', sans-serif;
 }
 .App-logo {
-    padding: 10vh;
-    height: 40vmin;
-    pointer-events: none;
-    animation: App-logo-spin infinite 20s linear;
+  padding: 10vh;
+  height: 40vmin;
+  pointer-events: none;
+  animation: App-logo-spin infinite 20s linear;
 }
 
 @keyframes App-logo-spin {
-    from {
-        transform: rotate(360deg);
-    }
-    to {
-        transform: rotate(0deg);
-    }
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
 }
-.game_page{
-    font-size: 20px;
-    color: #000000;
+.game_page {
+  font-size: 20px;
+  color: #000000;
+}
+.welcome_text {
+  margin-left: 0%;
+  font-size: 42px;
+  border: 1px solid;
+  padding: 0% 0% 2.5%;
+  color: #5a5a5a;
+  border-width: 0px 0px 1px;
+  border-bottom: 1px solid #b3b3b3;
+}
+.game_name_text {
+  display: flex;
+  margin-left: 2.5%;
+  font-size: 32px;
+  color: #5a5a5a;
+  border-bottom: 3px double #b3b3b3;
+  text-align: start;
+  margin-bottom: 2.5%;
+  padding: 0% 0% 2.5%;
+}
+.game_about_text {
+  display: flex;
+  margin-left: 5%;
+  color: #5a5a5a;
+  font-size: 20px;
 }

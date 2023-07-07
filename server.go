@@ -6,8 +6,10 @@ import (
 )
 
 type Game struct {
-	Category string `json:"category"`
-	Message  string `json:"message"`
+	Category  string `json:"category"`
+	Message   string `json:"message"`
+	GameName  string `json:"GameName"`
+	GameAbout string `json:"GameAbout"`
 }
 
 func main() {
@@ -29,13 +31,17 @@ func main() {
 
 		if category == "biology" {
 			game = Game{
-				Category: "biology",
-				Message:  "Welcome to biology games",
+				Category:  "biology",
+				Message:   "Welcome to biology games",
+				GameName:  "Guess the Animal",
+				GameAbout: "Read Characteristics of a given species and give your best guess",
 			}
 		} else if category == "history" {
 			game = Game{
-				Category: "history",
-				Message:  "Welcome to history games",
+				Category:  "history",
+				Message:   "Welcome to history games",
+				GameName:  "Guess the Guy",
+				GameAbout: "Read Characteristics and Achievments and give your best guess",
 			}
 		} else {
 			c.JSON(404, gin.H{

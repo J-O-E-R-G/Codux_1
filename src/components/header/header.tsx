@@ -20,7 +20,7 @@ export const Header = ({ className }: HeaderProps) => {
                     <a href="/games">Games</a>
                     <a href="/community">Community </a>
                     <a href="/data">Database</a>
-                    <a href="/api_access">API Keys</a>
+                    <a href="/api_access">For Nerds</a>
                 </div>
             </nav>
         </div>
