@@ -11,7 +11,7 @@ type Game struct {
 	GameAbout string `json:"GameAbout"`
 }
 
-func get_route(c *gin.Context) {
+func GetRoute(c *gin.Context) {
 	category := c.Param("category")
 
 	var game Game

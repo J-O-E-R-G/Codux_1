@@ -1,6 +1,7 @@
 package main
 
 import (
+	"github.com/epocahontas/10dayapp/server/routers"
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
 )
@@ -17,7 +18,7 @@ func main() {
 		AllowCredentials: true,
 	}))
 
-	r.GET("/games/:category", routers.get_route())
+	r.GET("/games/:category", routers.GetRoute)
 
 	r.Run() // listen and serve on 0.0.0.0:8080
 }
